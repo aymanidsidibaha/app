@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video games</title>
+    <link rel="icon" href="img/logo/logosite.png">
+    <link rel="shortcut" href="img/logo/logosite.png">
+    <link rel="apple-touche-icon" href="img/logo/logosite.png">
+    <link rel="stylesheet" href="style.css">
+    <meta proprety="og:title" content="تحميل العاب الهاتف و الحاسوب">
+    <meta proprety="og:description" content="هدا الموقع مختص في تحميل جميع انواع الالعاب في الحاسوب او الهاتف">
+    <meta proprety="og:image" content="img/logo/background/background.jpg">
+    <meta proprety="og:image:width" content="1200">
+    <meta proprety="og:image:height" content="630">
+    <style>
+        .main-hr {
+  width: 30%;
+  border: none;
+  border-top: 1px solid #c3c3c3;
+}
+.icon-btn {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #cdcdcd;
+  background: white;
+  border-radius: 25px;
+  overflow: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+}
+.add-btn:hover {
+  width: 120px;
+}
+.add-btn::before,
+.add-btn::after {
+  transition: width 0.2s ease-in-out, border-radius 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 10px;
+  top: calc(50% - 2px);
+  background: red;
+}
+.add-btn::after {
+  right: 14px;
+  overflow: hidden;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.add-btn::before {
+  left: 14px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.icon-btn:focus {
+  outline: none;
+}
+.btn-txt {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.add-btn:hover::before,
+.add-btn:hover::after {
+  width: 4px;
+  border-radius: 2px;
+}
+.add-btn:hover .btn-txt {
+  opacity: 1;
+}
+.add-icon::after,
+.add-icon::before {
+  transition: all 0.2s ease-in-out;
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 2px;
+  top: calc(50% - 10px);
+  background: red;
+  overflow: hidden;
+}
+.add-icon::before {
+  left: 22px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.add-icon::after {
+  right: 22px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.add-btn:hover .add-icon::before {
+  left: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+.add-btn:hover .add-icon::after {
+  right: 15px;
+  height: 4px;
+  top: calc(50% - 2px);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container"></div>
+        <div class="logo">
+            <img width="20" height="20" src="img/logo/logosite.png" alt="اسف سوف يتم حل المشكلة في اقرب وقت">
+            <ul class="nav-main">
+                <li ><a title="الصفحة الرئيسية" class="active" href="home">home</a></li>
+                <li><a title="حول" href="about.html">about</a></li>
+                <li><a title="تواصل معي" href="contacte.html">contacte</a></li>
+                <li><a href="">menu</a></li>
+            </ul>
+             <div class="titleheader">
+                 <h1 title=" ماهي انواع الالعاب التي تريد تحميلها ">Download Games ? </h1>
+                 <div class="buttons">
+                     <a href="computer.html">
+                    <div class="" style="text-align: center;margin-top:5%">
+                        <button class="icon-btn add-btn">
+                          <div class="add-icon"></div>
+                          <div title="العاب الحاسوب" class="btn-txt">computer</div>
+                        </button></a>
+                    </div>
+                    <a href="phone.html">
+                    <div class="" style="text-align: center;margin-top:5%">
+                        <button class="icon-btn add-btn">
+                          <div class="add-icon"></div>
+                          <div title="العاب الهاتف" class="btn-txt">phone</div>
+                        </button></a>
+                    </div>
+                 </div>
+             </div>
+        </div>
+       
+    </header>
+    
+</body>
+</html>

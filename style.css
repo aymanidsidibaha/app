@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(img/backgraund/backgraund.jpg);
+    height: 100vh;
+    background-image: cover;
+    background-size: 100%;
+}
+.cotainer {
+    width: 1360px;
+    margin: auto;
+}
+.logo img {
+    width: 200px;
+    height: auto;
+    
+
+}
+.nav-main {
+    float: right;
+    margin-top: 30px;
+}
+.nav-main li{    
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.nav-main li a:hover {
+    background-color: rgba(0, 255, 0, 0.7);
+}
+.nav-main li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-family:"Jockey One",sans-serif;
+}
+.nav-main li a.active {
+    border: 1px solid #fff;
+}
+.titleheader {
+    width: 1360px;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+h1 {
+    text-transform: uppercase;
+    font-family:"Jockey One",sans-serif;
+    font-size: 50px;
+    margin-top: 120px;
+    
+}
+.btn {
+    padding: 20px 20px;
+    border: 1px solid #fff; 
+    margin-right: 5px;
+    text-align: center;
+    margin-top: 13px;
+}
+.btn-one{
+    background: rgb(223, 135, 20);
+}
+.btn-one:hover {
+    background-color: #fff;
+}
+.btn-two:hover {
+    background-color: #fff;
+}
+.btn-two{
+    background-color: rgb(223, 135, 20) ;
+}
